@@ -19,6 +19,9 @@ const Wrapper = styled.div`
   display: grid;
   gird-template-columns: 1fr 1fr;
   gap: 40px;
+  img {
+    max-width: 100%;
+  }
 `;
 
 export default function Featured() {
@@ -35,7 +38,12 @@ export default function Featured() {
               incidunt recusandae repudiandae?
             </Desc>
           </div>
-          <div></div>
+          <div>
+            <img
+              src="https://cdn.imgbin.com/11/16/24/imgbin-apple-macbook-pro-15-2017-laptop-macintosh-macbook-pro-13-inch-macbook-1dcMs3CXtLWCh5z0ij7GPtDnW.jpg"
+              alt=""
+            />
+          </div>
         </Wrapper>
       </Center>
     </Bg>
